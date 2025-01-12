@@ -3,10 +3,9 @@ package Project;
 import java.util.HashMap;
 import java.util.Map;
 
-// Application Functionality provide by app
+
 public class PanService {
         private static Map<String, Pan> panMap = new HashMap<>();
-        //Static block to Execute the Code
         static {
             panMap.put("123ABC1", new Pan("123ABC1", "12345678", "SBI", "STOCK,FUNDS"));
             panMap.put("123ABC2", new Pan("123ABC2", "12345679", "HDFC", "CRYPTO"));
@@ -21,7 +20,7 @@ public class PanService {
                     return pan;
                 }
             }
-            return null;//Jar nahi pan detail milale tar null Return Kara.
+            return null;
         }
     }
 

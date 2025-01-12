@@ -1,9 +1,6 @@
 package Project;
 
-//-----------------------------------------------------> DAO layer <---------------------------------------------------------
 public class Aadhar {
-    // Aadher cha data private Thevayla private modifier
-
     private String name;
 
     private String aadharNumber;
@@ -12,15 +9,12 @@ public class Aadhar {
 
     private String address;
 
-    //Jevha class "Aadhar" chya object baher access karun  use karayach aasel tar tyasathi Parametric constructor
     public Aadhar(String name, String aadharNumber, String father, String address) {
         this.name = name;
         this.aadharNumber = aadharNumber;
         this.father = father;
         this.address = address;
     }
-
-    //private ha fakt Tya class purata limited aahe Mhanun getter and Setter use honar baher use Karayla
 
     public String getAddress() {
         return address;
@@ -54,7 +48,6 @@ public class Aadhar {
         this.name = name;
     }
 
-    // Also AADHAR CLASS CHY Sagalys Object print karayla toString
 
     @Override
     public String toString() {

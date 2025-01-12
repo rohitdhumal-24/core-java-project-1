@@ -3,10 +3,8 @@ package Project;
 import java.util.HashMap;
 import java.util.Map;
 
-// Application Functionality provide by app
 public class AadharService {
     private static Map<String,Aadhar> aadharMap = new HashMap<>();
-    //Static block to Execute the Code
     static{
         aadharMap.put("12345678",new Aadhar("Rohit","12345678","mr.Santosh Dhumal","pune"));
         aadharMap.put("12345679",new Aadhar("Bob","12345679","mr.Michel","London"));

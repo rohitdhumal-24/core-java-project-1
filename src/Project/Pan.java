@@ -1,17 +1,12 @@
 package Project;
 
-//-----------------------------------------------------> DAO layer <---------------------------------------------------------
-public class Pan {
     private String panNumber;
 
-    //aadhar pan la link salyamul te pan pan madhe yenar
     private String aadharNumber;
 
     private String bankDetails;
 
     private String investments;
-
-    //Jevha class " Pan" chya object baher access karun  use karayach aasel tar tyasathi Parametric constructor
 
     public Pan(String panNumber, String aadharNumber, String bankDetails, String investments) {
         this.panNumber = panNumber;
@@ -19,8 +14,6 @@ public class Pan {
         this.bankDetails = bankDetails;
         this.investments = investments;
     }
-
-    //private ha fakt Tya class purata limited aahe Mhanun getter and Setter use honar baher use Karayla
 
     public String getPanNumber() {
         return panNumber;
@@ -54,7 +47,6 @@ public class Pan {
         this.investments = investments;
     }
 
-    // Also AADHAR CLASS CHY Sagalys Object print karayla toString
 
     @Override
     public String toString() {
