@@ -29,3 +29,4 @@ src
 
  📊 Sample Input/Output
 
+![image alt](https://github.com/rohitdhumal-24/core-java-project-1/blob/6c8f5cfaf385f36dfc2ce9332c3e8b1d39ae57d4/adharPanMatcher.png)
