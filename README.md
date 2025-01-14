@@ -22,5 +22,6 @@ This project demonstrates the functionality of fetching and matching Aadhar and 
 
 ![image alt](https://github.com/rohitdhumal-24/core-java-project-1/blob/6c8f5cfaf385f36dfc2ce9332c3e8b1d39ae57d4/adharPanMatcher.png)
 
-## Project Uml 
+## 📊 Project Uml 
 
+![image alt](https://github.com/rohitdhumal-24/core-java-project-1/blob/f1f508777cb2e93f03d50ad51ddb964e79de6207/AdharPanUml.png)
