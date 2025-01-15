@@ -1,7 +1,5 @@
 # Aadhar-PAN Matching Application
 
-Aadhar-PAN Matching Application-which is Devloped Using the Core concept of Java.
-
 A simple Java-based console application that retrieves and matches Aadhar and PAN details based on the provided Aadhar number.
 
 ##  Overview
